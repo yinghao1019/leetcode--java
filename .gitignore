@@ -4,7 +4,21 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# 忽略編譯輸出
+out/
+target/
+*.class
 
+# 忽略 Maven/Gradle 產物
+*.iml
+*.log
+*.jar
+*.war
+*.ear
+
+# 忽略 IDE 相關文件
+*.swp
+*.swo
 ### STS ###
 .apt_generated
 .classpath
